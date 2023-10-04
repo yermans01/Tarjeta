@@ -1,0 +1,64 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    background-color: #FAFAF9;
+    font-family: "Sora";
+}
+.tarjeta {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 164px 700px 500px 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+.tar_btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 350px;
+    margin-top: 16px;
+    background-color: #d3c2e7;
+    color: #883AE1;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.tar_contenido {
+    margin-top: 20px;
+}
+
+.tar_contenido h1{
+    font-size: 30px;
+}
+.tar_contenido p{
+    margin-top: 6px;
+    font-size: 20px;
+    color: #6C727F;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    margin-right: 90px;
+}
+hr{
+    opacity: 80%;
+}
+.tar_contenido h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #6C727F;
+}
+
+
