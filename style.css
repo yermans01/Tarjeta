@@ -12,8 +12,8 @@ body{
     border: 1px solid #ccc;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 100px 250px 10px 430px;
+    padding: 10px;
+    margin: 150px 500px 10px 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@ body{
 .tar_btn{
     display: inline-block;
     padding: 10px 20px;
-    margin-right: 535px;
+    margin-right: 420px;
     margin-top: 16px;
     background-color: #d3c2e7;
     color: #883AE1;
@@ -60,16 +60,27 @@ hr{
     padding-bottom: 20px;
     color: #6C727F;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     
     .tarjeta {
         padding: 10px;
-        margin: 80px 80px 10px 80px;
+        margin: 200px 200px 10px 200px;
     }
     .tar_btn{
         padding: 10px 20px;
-        margin-right: 330px;
+        margin-right: 250px;
     }
 
 }
 
+@media screen and (max-width: 640px) {
+    
+    .tarjeta {
+        padding: 10px;
+        margin: 80px 40px 1px 40px;
+    }
+    .tar_btn{
+        padding: 10px 20px;
+        margin-right: 190px;
+    }
+}
