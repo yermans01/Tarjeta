@@ -48,7 +48,7 @@ body{
     color: #6C727F;
     padding-top: 16px;
     padding-bottom: 20px;
-    margin-right: 90px;
+    margin-right: 60px;
 }
 hr{
     opacity: 80%;
@@ -60,5 +60,16 @@ hr{
     padding-bottom: 20px;
     color: #6C727F;
 }
+@media screen and (max-width: 640px) {
+    
+    .tarjeta {
+        padding: 10px;
+        margin: 80px 80px 10px 80px;
+    }
+    .tar_btn{
+        padding: 10px 20px;
+        margin-right: 330px;
+    }
 
+}
 
